@@ -3,7 +3,7 @@
   functions = "netlify/functions"
 
 [functions]
-  included_files = ["data/**", "sql-asm.js", "node_modules/sql.js/dist/**"]
+  included_files = ["database.js", "server.js", "sql-asm.js", "data/**"]
   external_node_modules = ["sql.js"]
 
 [[redirects]]
